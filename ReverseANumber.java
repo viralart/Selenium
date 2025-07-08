@@ -1,9 +1,11 @@
 public class ReverseANumber {
     public static void main(String args[]){
-        int number = 120;
-        for(int i=1;i<number;i++){
-
+        int number = 123, rem=0, ans = 0;
+       while(number!=0){
+            rem = number % 10; //3
+            ans = ans * 10 + rem;
+            number = number / 10; 
         }
-        System.out.println();
+        System.out.println(ans);
     }
 }
