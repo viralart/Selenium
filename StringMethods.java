@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class StringMethods {
     public static void main(String args[]){
         String str = "welcome";
@@ -17,5 +19,15 @@ public class StringMethods {
                 System.out.println(str.replace('e','x'));
 
                 System.out.println(str.substring(1,5));
+
+                str = "viral@gmail.com";
+                String a[] = str.split("@");
+                System.out.println(a[0]);
+                System.out.println(a[1]);
+                 System.out.println(Arrays.toString(a));
+
+                 str= "Viral Kumar";
+                 System.out.println(str.contains("viral"));
+                 System.out.println(str.toLowerCase().contains("viral"));
     }
 }
