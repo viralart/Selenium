@@ -14,6 +14,6 @@ public class ReverseAString {
         System.out.println(str.reverse());
 
         StringBuilder str2 = new StringBuilder("w el co m e");
-        System.out.println(str2.trimToSize());
+        System.out.println();
     }
 }
