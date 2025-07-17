@@ -1,9 +1,18 @@
 public class StudentMain {
     public static void main(String args[]){
-        Student std1 = new Student();
-        std1.sid = 01;
-        std1.name= "Viral";
-        std1.grade = 'C';
-        std1.print();
+        Student std = new Student();
+
+        //using object reference variable
+        std.sid = 01;
+        std.name= "Viral";
+        std.grade = 'C';
+        std.print();
+
+        //using method
+        std.setStudentData(101, "Viral", 'A');
+        std.print();
+
+        // using constructor
+
     }
 }
