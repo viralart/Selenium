@@ -13,6 +13,7 @@ public class ReverseAString {
         StringBuffer str = new StringBuffer("welcome");
         System.out.println(str.reverse());
 
+        @SuppressWarnings("unused")
         StringBuilder str2 = new StringBuilder("w el co m e");
         System.out.println();
     }
