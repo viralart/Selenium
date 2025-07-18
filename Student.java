@@ -16,6 +16,5 @@ public class Student {
         sid = id;
         name = sname;
         grade = sgrade;
-        return "vrial";
     }
 }
