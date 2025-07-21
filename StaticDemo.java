@@ -14,8 +14,8 @@ public class StaticDemo {
 
         System.out.println(a);
         m1();
-        System.out.println(b);
-        m2();
+        System.out.println();
+        
 
     }
 }
